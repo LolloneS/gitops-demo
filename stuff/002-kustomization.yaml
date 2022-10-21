@@ -8,6 +8,7 @@ spec:
   path: ./demo
   prune: true
   serviceAccountName: automation
+  targetNamespace: default
   sourceRef:
     kind: GitRepository
     name: linuxday-demo
