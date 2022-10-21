@@ -10,4 +10,4 @@ spec:
   serviceAccountName: automation
   sourceRef:
     kind: GitRepository
-    name: flux-demo
+    name: linuxday-demo
