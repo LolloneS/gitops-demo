@@ -1,7 +1,7 @@
 apiVersion: source.toolkit.fluxcd.io/v1beta1
 kind: GitRepository
 metadata:
-  name: linuxday-demo
+  name: gitops-demo
   namespace: default
 spec:
   interval: 30s # How often Flux checks for repository updates (new commits)
@@ -9,5 +9,5 @@ spec:
     branch: main
   # To learn how to checkout private repositories, check
   # https://fluxcd.io/docs/components/source/gitrepositories/#spec-examples
-  url: https://github.com/lollones/linuxday-2022-demo
+  url: https://github.com/lollones/gitops-demo
   timeout: 30s
