@@ -11,4 +11,4 @@ spec:
   targetNamespace: default
   sourceRef:
     kind: GitRepository
-    name: linuxday-demo
+    name: gitops-demo
