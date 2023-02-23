@@ -3,5 +3,5 @@ kind: ConfigMap
 metadata:
   name: test-configmap
 data:
-  try_hammering_this: "asdasd"
+  try_hammering_this: "phil"
 
