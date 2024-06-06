@@ -19,6 +19,6 @@ spec:
       - image: hashicorp/http-echo
         name: http-echo
         args:
-          - "-text=helloooooo"
+          - "-text=goodbyeeee"
         resources: {}
 status: {}
