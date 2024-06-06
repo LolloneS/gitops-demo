@@ -7,7 +7,7 @@ spec:
   interval: 30s
   path: ./demo
   prune: true
-  serviceAccountName: automation
+  serviceAccountName: automation-lorenzo
   targetNamespace: default
   sourceRef:
     kind: GitRepository
